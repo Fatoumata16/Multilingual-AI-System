@@ -77,15 +77,6 @@ Derniers résultats observés:
 
 **Résultat majeur**: `RougeL = 0.3724` sur une langue peu dotée avec peu de données est un niveau très solide et valide la stratégie d'entraînement par étapes.
 
-## Message principal pour recruteur
-
-Ce projet ne se limite pas à "faire tourner un modèle":
-
-- il démontre une stratégie expérimentale adaptée à un contexte réel de contraintes GPU,
-- il articule retrieval + génération dans une architecture RAG cohérente,
-- il aboutit à un gain mesurable jusqu'à `RougeL ~ 0.372`,
-- il est industrialisable via FastAPI (voir `docs/README_main_fastapi.md`).
-
 ## Architecture globale (vue simple)
 
 1. Question utilisateur (FR ou BM)
